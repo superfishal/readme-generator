@@ -1,19 +1,21 @@
-# Portfolio Generator - [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# README Generator - **CLI inquirer readme generator** - [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  *Languages Used: Nodejs, javascript, ES6, Markdown*
+  
   ## Table of Contents
-  CLI Portfolio generator
-
-  ### Languages Used:
-  node, es6, javascript
 
   ### Installation Instructions:
-  install everything
+
+  <p>npm init, npm install inquirer, require inquirer, fs, and path. in package.json change "main": "index.js"</p>
 
   ### Usage Instructions:
-  enter or leave answers blank
+
+  <p>To run the program type node index in the CLI</p>
 
   #### Contributor Guidelines
-  upload to github
+
+  <p>Push to github develop branch for review</p>
 
   #### Testing Instructions
-  run the test
+  
+  <p>Not a clue</p>
   

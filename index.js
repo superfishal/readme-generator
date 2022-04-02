@@ -23,7 +23,7 @@ const questions = [
   {
     type: "input",
     name: "tech",
-    message: "What programs did you use to make this project?",
+    message: "What languages did you use to make this project?",
   },
   {
     type: "list",
@@ -52,6 +52,10 @@ const questions = [
 // function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
+// initialized on "node index"
+// inquirer prompts questions, then tales answers and synchorniously writes file,
+// joining to the current working directories README file
+// finally generating markdown with the questionAnswers
 function init() {
   inquirer.prompt(questions).then((questionAnswers) => {
     // console.log(generateMarkdown(questionAnswers));

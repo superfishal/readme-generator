@@ -26,24 +26,28 @@ function renderLicense(license) {
 // TODO: Create a function to generate markdown for README
 // Markdown is generated from template literal 'data' of various names of questions asked
 function generateMarkdown(data) {
-  return `# ${data.project} - ${renderLicense(data.license)}
+  return `# ${data.project} - **${data.description}** - ${renderLicense(
+    data.license
+  )}
+  *Languages Used: ${data.tech}*
+  
   ## Table of Contents
-  ${data.description}
-
-  ### Languages Used:
-  ${data.tech}
 
   ### Installation Instructions:
-  ${data.install}
+
+  <p>${data.install}</p>
 
   ### Usage Instructions:
-  ${data.usage}
+
+  <p>${data.usage}</p>
 
   #### Contributor Guidelines
-  ${data.contribute}
+
+  <p>${data.contribute}</p>
 
   #### Testing Instructions
-  ${data.test}
+  
+  <p>${data.test}</p>
   `;
 }
 
