@@ -1,15 +1,3 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
 function renderLicense(license) {
   switch (license) {
     case "ISC":
@@ -33,37 +21,44 @@ function generateMarkdown(questionAnswers) {
 
   *Languages Used: ${questionAnswers.tech}*
 
+
   ## Table of Contents:
 1. [Installation Instructions](#installation-instructions)
 2. [Usage instructions](#usage-instructions)
 3. [Contributor Guidelines](#contributor-guidelines)
 4. [Testing instructions](#testing-instructions)
 5. [Questions / Contact Information](#questions)
-6. [Walkthrough Video / Screenshots](#walkthrough)
+6. [Walkthrough Video / Screenshots](#walkthrough)  
 
-  ## Installation Instructions:
-
-  ${questionAnswers.install}
-
-  ## Usage Instructions:
-
-  ${questionAnswers.usage}
-
-  ## Contributor Guidelines:
-
-  ${questionAnswers.contribute}
-
-  ## Testing Instructions:
   
-  ${questionAnswers.test}
+  ### Installation Instructions:
 
-  ## Questions?
+  ${questionAnswers.install}  
+
+
+  ### Usage Instructions:
+
+  ${questionAnswers.usage}  
+
+
+  ### Contributor Guidelines:
+
+  ${questionAnswers.contribute}  
+
+
+  ### Testing Instructions:
+  
+  ${questionAnswers.test}  
+
+
+  ### Questions?
 
   <${questionAnswers.email}>
 
-  Check out my **[Github](${questionAnswers.github})**
+  Check out my **[Github](${questionAnswers.github})**  
 
-  ## Walkthrough
+
+  ### Walkthrough
 
   `;
 }
