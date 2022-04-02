@@ -17,15 +17,34 @@ const questions = [
   },
   {
     type: "input",
+    name: "install",
+    message: "Installation instructions?",
+  },
+  {
+    type: "input",
     name: "tech",
-    message:
-      "What did you use to make this project with? (Check all that apply?)",
+    message: "What programs did you use to make this project?",
   },
   {
     type: "list",
     name: "license",
     message: "What license",
     choices: ["ISC", "MIT", "Mozilla"],
+  },
+  {
+    type: "input",
+    name: "usage",
+    message: "Usage instructions?",
+  },
+  {
+    type: "input",
+    name: "contribute",
+    message: "Guidelines for conributors?",
+  },
+  {
+    type: "input",
+    name: "test",
+    message: "Please outline testing instructions",
   },
 ];
 
