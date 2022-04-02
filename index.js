@@ -46,6 +46,16 @@ const questions = [
     name: "test",
     message: "Please outline testing instructions",
   },
+  {
+    type: "input",
+    name: "github",
+    message: "Github link for this project?",
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "What is your email address?",
+  },
 ];
 
 // TODO: Create a function to write README file

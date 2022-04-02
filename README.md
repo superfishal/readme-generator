@@ -1,21 +1,23 @@
-# README Generator - **CLI inquirer readme generator** - [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  *Languages Used: Nodejs, javascript, ES6, Markdown*
-  
+# Portfolio Generator - [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+  **CLI html portfolio generator**
+
+  *Languages Used: es6, nodejs, javascript, markdown*
+
   ## Table of Contents
 
   ### Installation Instructions:
 
-  <p>npm init, npm install inquirer, require inquirer, fs, and path. in package.json change "main": "index.js"</p>
+  npm init -> npm install inquirer.  download remote files
 
   ### Usage Instructions:
 
-  <p>To run the program type node index in the CLI</p>
+  node index
 
-  #### Contributor Guidelines
+  #### Contributor Guidelines:
 
-  <p>Push to github develop branch for review</p>
+  github
 
-  #### Testing Instructions
+  #### Testing Instructions:
   
-  <p>Not a clue</p>
+  test it please
   
