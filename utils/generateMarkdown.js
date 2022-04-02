@@ -24,37 +24,46 @@ function renderLicense(license) {
 }
 
 // TODO: Create a function to generate markdown for README
-// Markdown is generated from template literal 'data' of various names of questions asked
-function generateMarkdown(data) {
-  return `# ${data.project} - ${renderLicense(data.license)}
-  **${data.description}**
+// Markdown is generated from template literal 'questionAnswers' of various names of questions asked
+function generateMarkdown(questionAnswers) {
+  return `# ${questionAnswers.project} - ${renderLicense(
+    questionAnswers.license
+  )}
+  **${questionAnswers.description}**
 
-  *Languages Used: ${data.tech}*
+  *Languages Used: ${questionAnswers.tech}*
 
-  ## Table of Contents
+  ## Table of Contents:
+1. [Installation Instructions](#installation-instructions)
+2. [Usage instructions](#usage-instructions)
+3. [Contributor Guidelines](#contributor-guidelines)
+4. [Testing instructions](#testing-instructions)
+5. [Questions / Contact Information](#questions)
+6. [Walkthrough Video / Screenshots](#walkthrough)
 
-  ### Installation Instructions:
+  ## Installation Instructions:
 
-  ${data.install}
+  ${questionAnswers.install}
 
-  ### Usage Instructions:
+  ## Usage Instructions:
 
-  ${data.usage}
+  ${questionAnswers.usage}
 
-  #### Contributor Guidelines:
+  ## Contributor Guidelines:
 
-  ${data.contribute}
+  ${questionAnswers.contribute}
 
-  #### Testing Instructions:
+  ## Testing Instructions:
   
-  ${data.test}
+  ${questionAnswers.test}
 
-  ----------------------------------------------------------------
+  ## Questions?
 
-  #### Questions?
+  <${questionAnswers.email}>
 
-  ${data.email}
-  ${data.github}
+  Check out my **[Github](${questionAnswers.github})**
+
+  ## Walkthrough
 
   `;
 }

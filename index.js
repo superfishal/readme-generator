@@ -70,7 +70,7 @@ function init() {
   inquirer.prompt(questions).then((questionAnswers) => {
     // console.log(generateMarkdown(questionAnswers));
     fs.writeFileSync(
-      path.join(process.cwd(), "README.md"),
+      path.join(process.cwd() + "/dist/", "README.md"),
       generateMarkdown(questionAnswers)
     );
   });

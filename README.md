@@ -1,23 +1,29 @@
-# Portfolio Generator - [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
-  **CLI html portfolio generator**
+# Run Buddy - [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  **website for running company**
 
-  *Languages Used: es6, nodejs, javascript, markdown*
+  *Languages Used: HTML / CSS*
 
   ## Table of Contents
 
   ### Installation Instructions:
 
-  npm init -> npm install inquirer.  download remote files
+  no install neccessary
 
   ### Usage Instructions:
 
-  node index
+  view only
 
   #### Contributor Guidelines:
 
-  github
+  push to my Github
 
   #### Testing Instructions:
   
-  test it please
+  n/a
+
+  #### Questions?
+
+  <aofish815@gmail.com>
+  Check out my **[Github](https://github.com/superfishal)**
+
   
